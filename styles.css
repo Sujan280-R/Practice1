@@ -1,0 +1,133 @@
+
+.header {
+    background-color:#dbd4e2;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar a:hover {
+    background-color: #555;
+    color: #ffeb3b;
+    transform:none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 2px;
+}
+.navbar {
+    font-family: Helvetica;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.header h1 {
+    font-size: 2em;
+    margin: 1;
+}
+.navbar a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #080808;
+    display:flex;
+
+    
+}
+.header .profile {
+    display: flex;
+    align-items: center;
+}
+.header .profile img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+body.container {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input[type="file"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#imageContainer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.dropdown {
+    overflow: hidden;
+}
+
+/* Style the dropdown button to fit inside the navbar */
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: black;
+
+    text-decoration: none;
+    display: block;
+   
+}
+
+.dropdown-content a:hover {
+    background-color: #0b0505;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
